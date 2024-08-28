@@ -1,0 +1,29 @@
+#
+# autor: michel
+# data: 21-08-2024
+
+# importar classes
+from classevazia import ClasseVazia as CV
+from pessoa import Pessoa as P
+
+# instanciar classes
+p1 = P() # p1 é um objeto do tipo Pessoa.
+cv1 = CV() # cv1 é um objeto do tipo ClasseVazia.
+l1 = list() # l1 é um objeto do tipo list.
+p2 = P() # p2 é um objeto do tipo Pessoa.
+# p1 e p2 são objetos do tipo Pessoa, mas são objetos diferentes.
+# p1 e p2 são instâncias da classe Pessoa.
+# p1 e p2 possuem endereços de memória diferentes.
+# assim como os demais objetos instanciados.
+
+
+print(f"p1 -> {p1}")
+print(f"p2 -> {p2}")
+print(f"p1.nome -> {p1.nome}")
+p1.nome = "Michel"
+print(f"p1.nome -> {p1.nome}")
+p1.nome = "Davi"
+print(f"p1.nome -> {p1.nome}")
+p1.olaMundo()
+
+
