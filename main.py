@@ -21,13 +21,18 @@ p2 = P() # p2 é um objeto do tipo Pessoa.
 # assim como os demais objetos instanciados.
 
 
-print(f"p1 -> {p1}")
+# 
+print(f"p1 -> {p1}") # endereço de memória do objeto p1.
 print(f"p2 -> {p2}")
-print(f"p1.nome -> {p1.nome}")
-p1.nome = "Michel"
+
+print(f"p1.nome -> {p1.nome}") # acessando o atributo nome do objeto p1.
+
+p1.nome = "Michel" # alterando o valor do atributo nome do objeto p1.
+
 print(f"p1.nome -> {p1.nome}")
 p1.nome = "Davi"
 print(f"p1.nome -> {p1.nome}")
-p1.olaMundo()
+
+p1.olaMundo() # chamando o método olaMundo do objeto p1.
 
 
