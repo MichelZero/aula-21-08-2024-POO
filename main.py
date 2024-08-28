@@ -3,8 +3,12 @@
 # data: 21-08-2024
 
 # importar classes
+# from nome_do_arquivo import nome_da_classe as alias
+# nome_do_arquivo sem a extensão .py
+# alias é um apelido que você dá para a classe
 from classevazia import ClasseVazia as CV
-from pessoa import Pessoa as P
+from pessoa import Pessoa as P 
+
 
 # instanciar classes
 p1 = P() # p1 é um objeto do tipo Pessoa.
