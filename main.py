@@ -1,5 +1,5 @@
 #
-# autor: michel
+# autor: Michel
 # data: 21-08-2024
 
 # importar classes
